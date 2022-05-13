@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Telefonos DIPRECA</title>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="../assets/css/bootstrap-reponsive.css" rel="stylesheet" />
   </head>
   <body>
-      <h2>Inicia seccion</h2>
-      <form method="post" action="#">
-           <label>Usuario</label>
-           <input type="text" name="user" id="user" value="Usuario"/>
-           <label>Contraseña</label>
-           <input type="password" name="pass" id="pass" value="Contraseña"/>
+    <div class="container">
+      <form class="form-signin" method="post" action="#" autocomplete="on" >
+        <h2>Inicia seccion</h2>
+        <input type="text" name="user" id="user" value="Usuario" />
+        <input type="password" name="pass" id="pass" value="Contraseña" />
+        <label class="checkbox">
+            <input type="checkbox" value="recuerdame"/> Recuerdame
+        </label>
+        <button class="btn btn-large btn-primary" type="submit">Acceder</button>
       </form>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
