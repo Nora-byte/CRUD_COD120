@@ -14,9 +14,30 @@
       <div class="container-fluid bg-warning">
           <div class="row">
               <div class="col-md">
-                  <header class="py-3">
+                  <header class="py-2">
                     <h3 class="text-center">Telefonos</h3>
                   </header>
               </div>
+              <div class="col-md">
+                  <header class="py-2">
+                    <h3 class="text-center"> </h3>
+                  </header>
+              </div>
+              <div class="col-md">
+                  <header class="py-2">
+                    <h3 class="text-center"> </h3>
+                  </header>
+              </div>
+              <div class="col-md">
+                <header class="my-0">
+                <p id="ubicacion" class="text-left">santiago de chile.</p>
+                </header>
+              </div>
+              <div class="col-md">
+                <header class="my-0">
+                <p id="temperatura" class="text-rigth">temperaura</p>
+                </header>
+              </div>
           </div>
       </div>
+      <script src="app.js"></script>
